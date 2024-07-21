@@ -6,7 +6,7 @@ import { WagmiConfig } from 'wagmi';
 import { moonbaseAlpha } from 'viem/chains';
 
 // 1. Get projectId
-const projectId = '415bd5343c4fd3b731a6eaeb0cc4b78d';
+const projectId = '';
 
 // 2. Create wagmiConfig
 const metadata = {
