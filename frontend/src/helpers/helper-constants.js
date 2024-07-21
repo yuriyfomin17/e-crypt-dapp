@@ -1,0 +1,89 @@
+
+export const CRYPTO_TRANSACTIONS_REST_PATH = "/v1/all-bet/common/transactions"
+export const GAME_TRANSACTIONS_REST_PATH = '/v1/all-bet/common/game/transactions'
+export const WALLET_ADDRESS = '0xd88fc8b10768769a05d6d59ef85be2251aceef14'
+export const USER_PROFIT_COEFFICIENT = 0.9
+export const BET_STATUSES = {
+  CREATED: 'CREATED',
+  OPENED: 'OPENED',
+  CLOSED: 'CLOSED',
+  RESOLVED: 'RESOLVED',
+};
+export const BET_OUTCOME = {
+  WIN: 'WIN',
+  LOSE: 'LOSE',
+  NOT_DETERMINED: 'NOT_DETERMINED'
+};
+
+export const TRANSACTION_OUTCOME = {
+  WIN: "YES",
+  LOSE : "NO",
+  NOT_DETERMINED: "NOT_DETERMINED"
+}
+
+export const ROLES = {
+  ROLE_ADMIN: 'ROLE_ADMIN',
+  ROLE_USER: 'ROLE_USER'
+};
+
+export const BE_MESSAGE_TYPE = {
+  INFO: 'INFO',
+  ERROR: 'ERROR',
+  SUCCESS: 'SUCCESS'
+};
+
+export const statusMap = {
+  "PROCESSING": 'processing',
+  "FAILING": 'failing',
+  "PROCESSED": 'processed'
+};
+
+export const typeMap = {
+  "DEPOSIT": "DEPOSIT",
+  "WITHDRAW": "WITHDRAW"
+}
+
+export const TOAST_ADMIN_GAME_CREATION_MESSAGE = "🎲 Created new game!";
+export const TOAST_GAME_ADDITION_MESSAGE = "🎲 Added new game!"
+export const TOAST_GENERAL_ERROR_MESSAGE = "Something went wrong!"
+export const TOAST_DEPOSIT_MESSAGE = "📥  Deposit Transaction Created!"
+export const TOAST_WITHDRAW_TRANSACTION_CREATED_MESSAGE = "📤  Withdraw Transaction Created!";
+export const TOAST_SUCCESS_MESSAGE = "Success!"
+export const TOAST_BALANCE_CHANGE_MESSAGE = "🏦 Balance change happened!"
+export const TOAST_NUMBER_SHOULD_BE_NUMERIC_AND_GREATER_THEN_ZERO_ERROR = "Number should be numeric and greater then zero"
+export const TOAST_NOT_ENOUGH_BALANCE_ERROR = "Not enough balance!"
+export const TOAST_MINIMUM_WITHDRAW_AMOUNT_ERROR = "Withdraw amount is lower then 0.0008"
+export const TOAST_GAME_TIME_TO_LIVE_WRONG_TIME_RANGE_ERROR = "Game duration should be between 5 to 60 min"
+export const TOAST_GAME_LIMIT_EXCEEDED_ERROR_ERROR = "Game limit exceeded! Remove/finish current game"
+export const TOAST_GAME_IS_ALREADY_LINKED = "Game is already added! Check games tab"
+export const TOAST_MISSING_TITLE_ERROR = "Specify title for the game"
+export const TOAST_GAME_ALREADY_FINISHED_ERROR = "Game already finished!"
+export const GAME_FINISHED_MESSAGE = "Game has finished! ✅"
+export const INCORRECT_WALLET_ADDRESS = "Incorrect wallet address. Use your old one!"
+export const INCORRECT_CHAIN_ID = "Select Moonbeam Network before connecting wallet!"
+
+export const BE_RESPONSES_MESSAGES = {
+  RESPONSE_SUCCESS: TOAST_SUCCESS_MESSAGE,
+  WITHDRAW_TRANSACTION_CREATED: TOAST_WITHDRAW_TRANSACTION_CREATED_MESSAGE,
+  DEPOSIT_TRANSACTION_CREATED: TOAST_DEPOSIT_MESSAGE,
+  ADMIN_GAME_CREATION: TOAST_ADMIN_GAME_CREATION_MESSAGE,
+  TOAST_GAME_ADDITION: TOAST_GAME_ADDITION_MESSAGE,
+  MINIMUM_WITHDRAW_AMOUNT_ERROR: TOAST_MINIMUM_WITHDRAW_AMOUNT_ERROR,
+  GENERAL_ERROR: TOAST_GENERAL_ERROR_MESSAGE,
+  GAME_TIME_TO_LIVE_WRONG_TIME_RANGE_ERROR: TOAST_GAME_TIME_TO_LIVE_WRONG_TIME_RANGE_ERROR,
+  GAME_LIMIT_EXCEEDED_ERROR: TOAST_GAME_LIMIT_EXCEEDED_ERROR_ERROR,
+  GAME_IS_ALREADY_LINKED_ERROR: TOAST_GAME_IS_ALREADY_LINKED,
+  NUMBER_SHOULD_BE_NUMERIC_AND_GREATER_THEN_ZERO_ERROR: TOAST_NUMBER_SHOULD_BE_NUMERIC_AND_GREATER_THEN_ZERO_ERROR,
+  NOT_ENOUGH_BALANCE_ERROR: TOAST_NOT_ENOUGH_BALANCE_ERROR,
+  MISSING_TITLE_ERROR: TOAST_MISSING_TITLE_ERROR,
+  GAME_ALREADY_FINISHED_ERROR: TOAST_GAME_ALREADY_FINISHED_ERROR,
+  INCORRECT_WALLET_ADDRESS: INCORRECT_WALLET_ADDRESS,
+  INCORRECT_CHAIN_ID: INCORRECT_CHAIN_ID
+};
+
+export const UPDATE_TYPE = {
+  ACCOUNT_INFORMATION: 'ACCOUNT_INFORMATION',
+  BET_INFORMATION: 'BET_INFORMATION'
+};
+
+export const WITHDRAW_CONFIRMATION_MESSAGE = 'Confirm Withdraw Operation ';

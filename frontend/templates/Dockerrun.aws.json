@@ -1,0 +1,11 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "$DOCKER_USERNAME/$APP_NAME:$APP_VERSION"
+  },
+  "Ports": [
+    {
+      "ContainerPort": 3001
+    }
+  ]
+}
