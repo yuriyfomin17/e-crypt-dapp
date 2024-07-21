@@ -12,21 +12,19 @@ E-Crypt is a dynamic crypto platform crafted for bloggers, sports enthusiasts, a
 
 To get started with E-Crypt, follow these steps:
 
-1. **Sign Up**: Create an account on the E-Crypt platform.
-2. **Deposit Cryptocurrency**: Add funds to your account by depositing your preferred cryptocurrency.
+1. **Sign Up**: Create an account on the E-Crypt platform with your google email.
+2. **Deposit Cryptocurrency**: Link your account with your crypto wallet. Add funds to your account by depositing crypto via Metamask (or other wallets). Only, Moonbase Alpha testnet with DEV tokens is supported currently
 3. **Explore**: Discover and monetize content, or place bets on blogger events.
-4. **Withdraw Earnings**: Easily withdraw your earnings in cryptocurrency.
+4. **Withdraw Earnings**: Easily withdraw your earnings in cryptocurrency. Note, that you can withdraw crypto to a wallet which was linked to your account from second step.
 
-## Contributing
 
-We welcome contributions from the community. If you'd like to contribute, please fork the repository and submit a pull request.
+## Tech Stack
 
-## License
+E-Crypt is built using a robust and modern tech stack:
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+- **Blockchain**: Polkadot's parachain (Moonbeam) - for testing purposes Moonbase Alpha testnet is used
+- **Frontend**: Next.js
+- **Backend**: Java Spring
+- **Parachain Integration**: Utilizing Moonbeam for seamless blockchain interactions
 
-## Contact
 
-For any inquiries or support, please contact us at [support@e-crypt.com](mailto:support@e-crypt.com).
-
-Dive into the world of E-Crypt and start monetizing your content or predicting blogger success today!
